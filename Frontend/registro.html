@@ -35,31 +35,47 @@
             <a class="nav-link" href="#">Empresas</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="registro.html">Registrarse</a>
+            <a class="nav-link" href="login.html">Iniciar Sesión</a>
           </li>
         </ul>
       </div>
     </nav>
-   
-    <main id="main">
-        <div class="container">
-            <div clas="row">
-                <div col-4>
-                    <form class="form-control">
-                        <label>Usuario</label>
-                        <input class="form-control my-2" type="text" placeholder="Usuario">
-                        <label>Contraseña</label>
-                        <input class="form-control my-2" type="password" placeholder="Contraseña">
-                        <button class="button">Registrarse</button>
-                        <a scr="#">¿Aún no tiene cuenta?   Registrarse</a>
-                    </form>
-                </div>
-            </div>
 
-        </div>
-    </main> 
+    <div class="card"  id="tarjeta">
+      <div class="card-body">
+        <h5 class="card-title"></h5>
+        <form>
+          <h3 style="position: center;">Nueva Cuenta</h3> 
+          <div class="form-group">
+            <label for="exampleInputEmail1">Usuario</label>
+            <input type="text" class="form-control my-2" id="exampleInputEmail1" placeholder="@Usuario">
+            <label for="exampleInputEmail1">Correo Electrónico</label>
+            <input type="email" class="form-control my-2" id="exampleInputEmail1"  placeholder="user@exaplem.com">
+            <label for="exampleInputEmail1">Contraseña</label>
+            <input type="password" class="form-control my-2" id="exampleInputEmail1"  placeholder="Contraseña">
+            <label for="exampleInputEmail1">Tipo de Usuario</label>
+            <select class="form-control my-2">
+              <option>Seleccione el tipo de usuario</option>
+              <option>Cliente</option>
+              <option>Empresa</option>
+            </select>
+            <label for="exampleInputEmail1">Plan de Pago</label>
+            <select class="form-control my-2">
+              <option>Seleccione el plan de pago</option>
+              <option>Básico</option>
+              <option>Estándar</option>
+              <option>Premium</option>
+            </select> <br> 
+          </div>
+          <button type="button" class="btn" style="background-color: #ED7645;">Registrarse</button>
+          <br> <br>
+        </form>
+      </div>
+    </div>
+            
+  
 
-    <!-- Footer -->
+    <!-- Footer 
     <div class="footer">
       <div class="container-fluid">
         <div class="footer-main">
@@ -84,7 +100,7 @@
            </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
