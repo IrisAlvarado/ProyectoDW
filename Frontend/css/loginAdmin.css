@@ -1,0 +1,23 @@
+nav {
+    background-color: #1C2260;
+    background-attachment: fixed;
+}
+
+
+a {
+    color: black;
+}
+
+#nav-vertical {
+    background-color: #1C2260;
+    width: 80px;
+    height: 900px;
+}
+
+.card {
+    background-color: #F5FCFF;
+    text-align: center;
+    left: 300px;
+    height: 400px;
+
+}
