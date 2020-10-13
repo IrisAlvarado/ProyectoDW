@@ -12,13 +12,13 @@ a {
     color: black;
 }
 
-body{
+#header {
     background: url(../img/esta.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    }
+}
 
 #textoBienvenida {
     font-size: 60px;
@@ -41,3 +41,37 @@ body{
     display: grid;
     grid-template-rows: repeat(auto-fit, 250px);
   }
+
+
+.card-plan1 {
+    border-radius: 17px;
+    width: 200px;
+    height: 500px;
+    background-position-x: center;
+    background-position-y: center;
+    top: auto;
+    left: 40px;
+    right: 40px;
+}
+
+.card-plan2 {
+    border-radius: 17px;
+    width: 200px;
+    height: 500px;
+    background-position-x: center;
+    background-position-y: center;
+    top: auto;
+    left: 40px;
+    right: 40px;
+}
+
+.card-plan3 {
+    border-radius: 17px;
+    width: 200px;
+    height: 500px;
+    background-position-x: center;
+    background-position-y: center;
+    top: auto;
+    left: 40px;
+    right: 40px;
+}
