@@ -43,35 +43,7 @@ a {
   }
 
 
-.card-plan1 {
-    border-radius: 17px;
-    width: 200px;
-    height: 500px;
-    background-position-x: center;
-    background-position-y: center;
-    top: auto;
-    left: 40px;
-    right: 40px;
-}
-
-.card-plan2 {
-    border-radius: 17px;
-    width: 200px;
-    height: 500px;
-    background-position-x: center;
-    background-position-y: center;
-    top: auto;
-    left: 40px;
-    right: 40px;
-}
-
-.card-plan3 {
-    border-radius: 17px;
-    width: 200px;
-    height: 500px;
-    background-position-x: center;
-    background-position-y: center;
-    top: auto;
-    left: 40px;
-    right: 40px;
+.card {
+    width: 252px;
+    height: 352px;
 }
