@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/loginAdmin.css">
     <script src="https://kit.fontawesome.com/7354b55012.js" crossorigin="anonymous"></script>
-    <title>Our Store</title>
+    <title>Administrador</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg">
@@ -31,52 +31,73 @@
     <div class="row">
         <div class="col-2" id="nav-vertical">
           <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-            <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="index.html" role="tab" aria-controls="v-pills-home" aria-selected="true"> <i class="far fa-address-card"></i> Mi Perfil</a>
-            <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="gestionEmpresas.html" role="tab" aria-controls="v-pills-profile" aria-selected="false"> <i class="far fa-building"></i> Gestión de Empresas</a>
-            <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="planesPago.html" role="tab" aria-controls="v-pills-messages" aria-selected="false"><i class="fas fa-money-check-alt"></i> Gestión de Planes</a>
-            <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="plantillas.html" role="tab" aria-controls="v-pills-settings" aria-selected="false"><i class="fas fa-laptop-code"></i> Plantillas</a>
-            <a class="nav-link" id="v-pills-roles-tab" data-toggle="pill" href="roles.html" role="tab" aria-controls="v-pills-roles" aria-selected="false"><i class="fas fa-users"></i> Roles</a>
+            <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="index.html" role="tab" aria-controls="v-pills-home" aria-selected="true">Mi Perfil</a>
+            <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="gestionEmpresas.html" role="tab" aria-controls="v-pills-profile" aria-selected="false">Gestión de Empresas</a>
+            <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="planesPago.html" role="tab" aria-controls="v-pills-messages" aria-selected="false">Gestión de Planes</a>
+            <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="plantillas.html" role="tab" aria-controls="v-pills-settings" aria-selected="false">Plantillas</a>
+            <a class="nav-link" id="v-pills-roles-tab" data-toggle="pill" href="roles.html" role="tab" aria-controls="v-pills-roles" aria-selected="false">Roles</a>
             <a class="nav-link" id="v-pills-config-tab" data-toggle="pill" href="configuracion.html" role="tab" aria-controls="v-pills-config" aria-selected="false">Configuración</a>
           </div>
         </div>
         <div class="col-10 text-center">
           <div class="tab-content" id="v-pills-tabContent">
             <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-                <br>
-                <h1>¡Bienvenido!</h1> <br>
-                <div class="card w-50 text-center">
-                    <div class="card-body">
-                      <img src="../img/useradmin.png" alt="" class="img-thumbnail">
-                      <h5 class="card-title">Nombre Usuario</h5> 
-                      <p class="card-text">
-                          
-                              <li>Nombre Empresa:    Empresa X</li>
-                              <li>Direccion:         Col. Lomas del Norte</li>
-                              <li>RTN:               0801009977373891</li>
-                          
-                      </p>
-                      <a href="#" >
-                        <i class="far fa-edit"></i>
-                      </a>
-                    </div>
-                  </div>
-                  
-
+                <a href="index.html"></a>
             </div>
             <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab"> 
                 <a href="gestionEmpresas.html"></a>
             </div>
             <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
-                <a href="plantillas.html"></a>
+                <a href="planesPago.html"></a>
             </div>
             <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
-                <a href="plantillas.html"></a>
+                <br>
+                <h4>Gestión de Plantillas y Temas </h4> <br> <br>
+                <table class="table table-hover">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Plantilla</th>
+                        <th scope="col">Visualizar</th>
+                        <th scope="col">Editar</th>
+                        <th scope="col">Eliminar</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Plantilla1</td>
+                        <td><i class="far fa-eye"></i></td>
+                        <td><i class="far fa-edit"></i></td>
+                        <td><i class="far fa-trash-alt"></i></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Plantilla2</td>
+                        <td><i class="far fa-eye"></i></td>
+                        <td><i class="far fa-edit"></i></td>
+                        <td><i class="far fa-trash-alt"></i></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Plantilla3</td>
+                        <td><i class="far fa-eye"></i></td>
+                        <td><i class="far fa-edit"></i></td>
+                        <td><i class="far fa-trash-alt"></i></td>
+                      </tr>
+                    </tbody>
+                  </table> 
+                  <br> <br>
+                  <a href="#">
+                    <i class="fas fa-plus-circle"></i>
+                    Nueva Plantilla
+                  </a>
             </div>
             <div class="tab-pane fade" id="v-pills-roles" role="tabpanel" aria-labelledby="v-pills-roles-tab">
-              <a href="roles.html"></a>
+                <a href="roles.html"></a>
             </div>
             <div class="tab-pane fade" id="v-pills-config" role="tabpanel" aria-labelledby="v-pills-config-tab">
-              <a href="configuracion.html"></a>
+                <a href="configuracion.html"></a>
             </div>
             </div>
           </div>
