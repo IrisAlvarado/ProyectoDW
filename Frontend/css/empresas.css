@@ -26,3 +26,16 @@ a {
     background-color: rgba(28, 34, 96, 20%);
     color: black;
 }
+
+#formularioRegistro {
+    border-radius: 17px;
+    width: 400px;
+    height: 400px;
+    background-position-x: center;
+    background-position-y: center;
+    top: 40px;
+    left: 350px;
+    right: auto;
+
+
+}
