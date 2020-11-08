@@ -47,3 +47,11 @@ a {
     width: 252px;
     height: 352px;
 }
+
+.cardEmpresa {
+    width: 200px;
+    height: 350px;
+    border-color: black;
+    padding-left: 0px;
+    padding-right: 0px;
+}
