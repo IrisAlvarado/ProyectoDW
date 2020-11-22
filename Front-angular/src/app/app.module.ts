@@ -2,18 +2,20 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+import '@angular/localize/init';
 
 import { AppComponent } from './app.component';
-import { AdminComponent } from './admin/admin.component';
-import { EmpresasComponent } from './empresas/empresas.component';
-import { UsuariosComponent } from './usuarios/usuarios.component';
+import { NavbarComponent } from './componentesLanding/navbar/navbar.component';
+import { PortadaComponent } from './componentesLanding/portada/portada.component';
+import { FooterComponent } from './componentesLanding/footer/footer.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    AdminComponent,
-    EmpresasComponent,
-    UsuariosComponent
+    NavbarComponent,
+    PortadaComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

@@ -1,10 +1,10 @@
-import { FrontendAngularPage } from './app.po';
+import { FrontAngularPage } from './app.po';
 
-describe('frontend-angular App', function() {
-  let page: FrontendAngularPage;
+describe('front-angular App', function() {
+  let page: FrontAngularPage;
 
   beforeEach(() => {
-    page = new FrontendAngularPage();
+    page = new FrontAngularPage();
   });
 
   it('should display message saying app works', () => {
